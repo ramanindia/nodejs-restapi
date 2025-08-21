@@ -1,0 +1,161 @@
+{
+	"info": {
+		"_postman_id": "0918c366-1d5a-45ee-846a-39d63e5a53fc",
+		"name": "nodeAPIWithTypescript",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "3072176",
+		"_collection_link": "https://dark-satellite-831775.postman.co/workspace/My-Workspace~799f6fec-41e7-40c3-8bea-faf198634f73/collection/3072176-0918c366-1d5a-45ee-846a-39d63e5a53fc?action=share&source=collection_link&creator=3072176"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhayI6MzAsInRpZCI6ImVmIiwiemsiOjExfQ==",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"tenant_id\":0,\n    \"roleID\":2,\n    \"signupType\":\"website\",\n    \"name\":\"Rajesh kumar\",\n    \"email\":\"rahuk@gmail.com\",\n    \"timezoneID\":27,\n    \"countryID\":101,\n    \"mobileNo\":\"324242423\",\n    \"address\":\"jaipur Rajasthanb India\",\n    \"password\":\"123434\",\n    \"cpassword\":\"123434\",\n    \"ipAddress\":\"123.33.43.43\"\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/api/users/registerUser",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"registerUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjMsInVzZXJVVUlEIjoiZTNkZDllMmItZWYwYS00MGRmLWIxZWItYzc5YWY0YzhkODViIiwidHJhbnNwb3J0ZXJJRCI6MCwicm9sZUlEIjoyLCJ0aW1lem9uZUlEIjoyNywibG9naW5UeXBlIjoid2Vic2l0ZSIsInNpZ251cFR5cGUiOiJ3ZWJzaXRlIiwibmFtZSI6IlJhamVzaCBrdW1hciIsInByb2ZpbGVQaWMiOm51bGwsImVtYWlsIjoicmFqQGdtYWlsLmNvbSIsImNvdW50cnlJRCI6MTAxLCJtb2JpbGVObyI6Ijg3NjU0NTY3OCIsImFkZHJlc3MiOiJqYWlwdXIgUmFqYXN0aGFuYiBJbmRpYSIsInBsYWluUGFzc3dvcmQiOiIxMjM0NTYiLCJkb21haW5TdWJEb21haW4iOm51bGwsImlwQWRkcmVzcyI6IjEyMy4zMy40My40MyIsImxhc3RMb2dpbiI6IjIwMjUtMDctMjFUMDM6MzE6MjcuMDAwWiIsIk9UUCI6bnVsbCwib3RwU2VuZFRpbWUiOm51bGwsImRldmljZVRva2VuIjpudWxsLCJicm9zd2VyIjoiY2hyb21lIiwiYnJvd3NlclZlcnNpb24iOiI1NC45IiwiYWN0aXZhdGlvbktleSI6bnVsbCwiYWRkZWRCeSI6MSwidXBkYXRlZEJ5IjoxLCJjcmVhdGVkQXQiOiIyMDI1LTA3LTE3VDExOjExOjQ5LjAwMFoiLCJ1cGRhdGVkQXQiOiIyMDI1LTA3LTIxVDA5OjAxOjI3LjAwMFoiLCJpc1ZlcmlmaWVkIjowLCJzdGF0dXMiOjEsImlhdCI6MTc1MzA4ODUxMiwiZXhwIjoxNzUzMDkyMTEyfQ._2CSRCeZIXyMnoFD-jL_IFPyqvUbc4zWs6tzDXskbaY",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n    \"email\":\"raj@gmail.com\",\n    \"password\":\"123456\",\n    \"ipAddress\":\"123.33.43.43\",\n    \"loginType\":\"website\",\n    \"broswer\":\"chrome\",\n    \"browserVersion\":\"54.9\"\n\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/api/users/login",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get Profile",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjozLCJ1c2VyX1VVSUQiOiJlM2RkOWUyYi1lZjBhLTQwZGYtYjFlYi1jNzlhZjRjOGQ4NWIiLCJ1c2VyX3RlbmFudF9pZCI6MCwidXNlcl9yb2xlX2lkIjoyLCJ1c2VyX3RpbWV6b25lX2lkIjoyNywidXNlcl9sb2dpblR5cGUiOiJ3ZWJzaXRlIiwidXNlcl9zaWdudXBUeXBlIjoid2Vic2l0ZSIsInVzZXJfbmFtZSI6IlJhamVzaCBrdW1hciIsInVzZXJfcHJvZmlsZVBpYyI6bnVsbCwidXNlcl9lbWFpbCI6InJhakBnbWFpbC5jb20iLCJ1c2VyX2NvdW50cnlfaWQiOjEwMSwidXNlcl9tb2JpbGVObyI6Ijg3NjU0NTY3OCIsInVzZXJfYWRkcmVzcyI6ImphaXB1ciBSYWphc3RoYW5iIEluZGlhIiwidXNlcl9wYXNzd29yZCI6IiQyYiQxMCRSWERIeEwxLzk1bWN4Z1VHU2pmNXh1WEpteWYvbWNIVW9POW9OUm8xZlkxRWpCdlZvQ2ZjNiIsInVzZXJfcGxhaW5QYXNzd29yZCI6IjEyMzQ1NiIsInVzZXJfZG9tYWluU3ViRG9tYWluIjpudWxsLCJ1c2VyX2lwQWRkcmVzcyI6IjEyMy4zMy40My40MyIsInVzZXJfbGFzdExvZ2luIjoiMjAyNS0wNy0yMVQwNjo1MjoxOC4wMDBaIiwidXNlcl9PVFAiOm51bGwsInVzZXJfb3RwU2VuZFRpbWUiOm51bGwsInVzZXJfZGV2aWNlVG9rZW4iOm51bGwsInVzZXJfYnJvc3dlciI6ImNocm9tZSIsInVzZXJfYnJvd3NlclZlcnNpb24iOiI1NC45IiwidXNlcl9hY3RpdmF0aW9uS2V5IjpudWxsLCJ1c2VyX2FkZGVkQnkiOjEsInVzZXJfdXBkYXRlZEJ5IjoxLCJ1c2VyX2NyZWF0ZWRBdCI6IjIwMjUtMDctMTdUMTE6MTE6NDkuMDAwWiIsInVzZXJfdXBkYXRlZEF0IjoiMjAyNS0wNy0yMVQxMjoyMjoxOC4wMDBaIiwidXNlcl9pc1ZlcmlmaWVkIjowLCJ1c2VyX3N0YXR1cyI6MSwiaWF0IjoxNzU0MTIzODQxLCJleHAiOjE3NTQxMjc0NDF9.Mo3inJsEuAAba3JCS2kVTPCflbHo8yn7p1rUMy1VxGU",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept-Language",
+						"value": "en",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:4000/api/users/getprofile",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "4000",
+					"path": [
+						"api",
+						"users",
+						"getprofile"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
