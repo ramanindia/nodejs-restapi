@@ -81,7 +81,7 @@ Edit the required value in folder `src/assets` file `config.json`.
 ```
 ## Running App
 ```cmd
-> npm start dev
+> npm run dev
 ```
 
 If you want to more details, please contact me ([WhatsApp](https://api.whatsapp.com/send/?phone=9950697373&text&app_absent=0))
