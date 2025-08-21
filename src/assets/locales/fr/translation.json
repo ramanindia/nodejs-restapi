@@ -1,0 +1,10 @@
+{
+  "welcome": "Welcome to our app!",
+  "500ERROR":"Error creating user",
+  "user": {
+     "nameRequired": "FR Name is required",
+     "emailRequired": "FR Email is required",
+     "ValidemailRequired": "FR  Enter Valid Email-id",
+      "ageRequired": "FR  Age should be greater than 18 years"
+  }
+}

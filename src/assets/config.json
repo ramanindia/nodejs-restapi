@@ -1,0 +1,34 @@
+{ 
+  "HOST_NAME": "127.0.0.1",  
+  "PORT": 4000,
+  "NODE_ENV" : "development",
+  "NODE_ENV_SSL" : false,
+  "ProdDatabase": 
+  {
+    "host": "127.0.0.1",
+     "user": "root",
+      "password": "",
+      "database": "test",
+      "debug": false,
+      "waitForConnections": true,
+      "multipleStatements": true,
+       "connectionLimit": 1000,
+      "maxIdle": 10, 
+      "idleTimeout": 60000, 
+      "queueLimit": 0
+  },
+  "DevDatabase": 
+  {
+     "host": "127.0.0.1",
+     "user": "root",
+      "password": "",
+      "database": "test",
+      "debug": false,
+      "waitForConnections": true,
+      "multipleStatements": true,
+       "connectionLimit": 100000,
+      "maxIdle": 10, 
+      "idleTimeout": 60000, 
+      "queueLimit": 0
+  }
+}

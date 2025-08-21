@@ -1,0 +1,31 @@
+{
+  "internalError":"Internal server error",
+  "sucessFetchResult":"Successfully fetch the record",
+  "tokenRequired" :"Access token missing",
+  "invalidExpiredToken" :"Invalid or expired token",
+  "user": {
+    "reqtransporterID": "transporter is required",
+    "reqroleID": "Role is required",
+    "reqsignupType": "Signup type is required",
+    "reqloginType": "Login type is required",
+    "reqname": "Name is requyired between 3 to 80 characters",
+    "reqemail": "Email is required",
+    "reqvalidEmailid": "Enter Valid Email-id",
+    "reqtimezoneID": "Enter timezone id",
+    "reqcountryID": "Country id is required",
+    "reqmobileNo": "Mobile no is required",
+    "reqaddress": "Address is required",
+    "reqpassword": "Password is required",
+    "reqcpassword": "Confirm Password is required",
+    "redpasswordMismatch": "Password and confirm it not maching.",
+    "reqipAddress": "IP address is required",
+     "reqbrowser": "Browser is required",
+      "reqbrowserversion": "Browser version is required",
+    "registrationSucces": "You have successfully registrated with us.",
+    "emailExits": "Email-Id is already exits. Please try other",
+    "mobilenoExits": "Mobile no is already exits. Please try other",
+    "loggedintoSystem": "You have successfully logged into system",
+    "userNotFound": "User not found"
+
+  }
+}
