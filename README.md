@@ -2,10 +2,6 @@
 
 Simple Rest-API With login,Register,List API , Built using postgresql, Express.js, and Node.js,typescript.
 
-Demo App : https://zekais-restapi.herokuapp.com/
-
-Rest-Api : https://zekais-api.herokuapp.com/
-
 # Installation
 
 Requirements
@@ -15,7 +11,7 @@ Requirements
 
 ## Cloning this repo
 ```cmd
-> git clone https://github.com/fawwaz37/nodejs-restapi.git
+> git clone https://github.com/ramanindia/nodejs-restapi
 > cd nodejs-restapi
 ```
 Use `code .` to open file in VS Code
@@ -122,10 +118,6 @@ Go to [Heroku](https://heroku.com) and Login
 
 Create New App ( App Name For Example : abcd-api)
 
-<img src="https://i.postimg.cc/Z5T8Btw2/newapp.png" width="300">
-
-Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
-
 Open `CMD` and Login Heroku
 
 ```cmd
@@ -152,10 +144,6 @@ Commit your code to the repository and deploy it to Heroku using Git.
 > git commit -am "make it better"
 > git push heroku master
 ```
-
-Log Success
-
-<img src="https://i.postimg.cc/j5bzy0NP/deploy.png" width="300">
 
 
 
