@@ -7,8 +7,8 @@ This project demonstrates user authentication (Login/Register) and basic CRUD/li
 
 # Features
 * User Authentication
-   Register new users
-   Login with JWT authentication
+   * Register new users
+   * Login with JWT authentication
 *  User Listing API – fetch all registered users=
 *  Secure Routes – protected with JWT middleware
 *  PostgreSQL Database – relational and scalable
