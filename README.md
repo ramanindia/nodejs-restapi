@@ -3,7 +3,7 @@
 Simple REST API– Node.js + Express + PostgreSQL + TypeScript
 
 A clean and simple REST API built with Node.js, Express.js, TypeScript, and PostgreSQL.
-This project demonstrates user authentication (Login/Register) and basic CRUD/listing APIs with a production-ready structure with multi language.
+This project demonstrates user authentication (Login/Register) and basic CRUD/listing APIs with a production-ready structure with multi language response.
 
 # Features
 * User Authentication
